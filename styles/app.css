@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  font-family: 'Cascadia Code';
+}
+
+body {
+  background-color: #323232;
+  height: 100%;
+  font-family: 'Cascadia Code';
+}
+
+#title{
+  position: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F4FCD9;
+  margin-top: 50px;
+  font-size: 35px;
+  margin-left: -5px;
+}
+
+.main {
+  top: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  width: fixed;
+  background-color: #F4FCD9;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.textarea {
+  margin: 4px;
+  width: 204px;
+  border: none;
+  padding: 10px;
+  background-color: #1B1A17;
+  border-radius: 25px;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+.tombol {
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 25px;
+  background: black;
+}
+
+.btn-yellow {
+  color: #607d8b;
+  background: rgb(232, 255, 22);
+}
